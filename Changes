@@ -1,4 +1,10 @@
 Revision history for Net-Async-ControlChannel
 
+0.002     2013-09-20 05:55:04 Europe/London
+	No new features
+
+	Dependency fixes:
+	* Include IO::Async in cpanfile
+
 0.001     2013-09-19 06:55:14 Europe/London
 	Initial CPAN release

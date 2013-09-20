@@ -1,6 +1,6 @@
 package Net::Async::ControlChannel::Server;
 {
-  $Net::Async::ControlChannel::Server::VERSION = '0.001';
+  $Net::Async::ControlChannel::Server::VERSION = '0.002';
 }
 use strict;
 use warnings;
@@ -14,7 +14,7 @@ Net::Async::ControlChannel::Server - server implementation for L<Protocol::Contr
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 

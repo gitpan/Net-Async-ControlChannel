@@ -1,6 +1,6 @@
 package Net::Async::ControlChannel::Client;
 {
-  $Net::Async::ControlChannel::Client::VERSION = '0.001';
+  $Net::Async::ControlChannel::Client::VERSION = '0.002';
 }
 use strict;
 use warnings;
@@ -14,7 +14,7 @@ Net::Async::ControlChannel::Client - L<IO::Async> support for L<Protocol::Contro
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 DESCRIPTION
 

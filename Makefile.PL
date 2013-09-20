@@ -21,6 +21,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Net::Async::ControlChannel",
   "PREREQ_PM" => {
     "Future" => "0.15",
+    "IO::Async" => "0.50",
     "List::UtilsBy" => 0,
     "Mixin::Event::Dispatch" => "1.001",
     "Protocol::ControlChannel" => "0.001",
@@ -32,7 +33,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => "0.98"
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

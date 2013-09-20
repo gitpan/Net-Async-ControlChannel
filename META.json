@@ -34,6 +34,7 @@
       "runtime" : {
          "requires" : {
             "Future" : "0.15",
+            "IO::Async" : "0.50",
             "List::UtilsBy" : "0",
             "Mixin::Event::Dispatch" : "1.001",
             "Protocol::ControlChannel" : "0.001",
@@ -57,6 +58,6 @@
       },
       "homepage" : "http://search.cpan.org/dist/Net-Async-ControlChannel/"
    },
-   "version" : "0.001"
+   "version" : "0.002"
 }
 
