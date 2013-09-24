@@ -3,6 +3,7 @@ abstract: 'IO::Async implementation for simple key/value protocol'
 author:
   - 'Tom Molesworth <cpan@entitymodel.com>'
 build_requires:
+  File::Spec: 0
   IO::Handle: 0
   IPC::Open3: 0
   Test::More: 0.98
@@ -10,7 +11,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.48
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300038, CPAN::Meta::Converter version 2.132510'
+generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132620'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -27,4 +28,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Net-Async-ControlChannel
   homepage: http://search.cpan.org/dist/Net-Async-ControlChannel/
-version: 0.002
+version: 0.003

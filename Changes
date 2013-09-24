@@ -1,5 +1,12 @@
 Revision history for Net-Async-ControlChannel
 
+0.003     2013-09-24 07:37:28 Europe/London
+	No new features
+
+	Test fixes:
+	* Updated Dist::Zilla::Plugin::Test::Compile as described in RT88890,
+	thanks to CHORNY for reporting
+
 0.002     2013-09-20 05:55:04 Europe/London
 	No new features
 
