@@ -4,7 +4,7 @@
       "Tom Molesworth <cpan@entitymodel.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132620",
+   "generated_by" : "Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "perl_5"
    ],
@@ -59,6 +59,6 @@
       },
       "homepage" : "http://search.cpan.org/dist/Net-Async-ControlChannel/"
    },
-   "version" : "0.003"
+   "version" : "0.004"
 }
 

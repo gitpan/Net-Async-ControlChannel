@@ -1,6 +1,6 @@
 package Net::Async::ControlChannel::Server;
 {
-  $Net::Async::ControlChannel::Server::VERSION = '0.003';
+  $Net::Async::ControlChannel::Server::VERSION = '0.004';
 }
 use strict;
 use warnings;
@@ -14,7 +14,7 @@ Net::Async::ControlChannel::Server - server implementation for L<Protocol::Contr
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 
@@ -214,7 +214,6 @@ sub incoming_stream {
 	my $self = shift;
 	my $stream = shift;
 	my $remote = join ':', map $stream->read_handle->$_, qw(peerhost peerport);
-	$self->invoke_event(connect => $remote);
 	$self->{clients}{refaddr $stream} = {
 		remote => $remote,
 		stream => $stream,
@@ -223,6 +222,7 @@ sub incoming_stream {
 		on_read => $self->curry::weak::incoming_message($remote),
 	);
 	$self->loop->add($stream);
+	$self->invoke_event(connect => $remote);
 }
 
 =head2 incoming_message

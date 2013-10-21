@@ -3,7 +3,7 @@ package Net::Async::ControlChannel;
 use strict;
 use warnings;
 
-our $VERSION = '0.003';
+our $VERSION = '0.004';
 
 =head1 NAME
 
@@ -11,7 +11,7 @@ Net::Async::ControlChannel - L<IO::Async> support for ControlChannel protocol
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 DESCRIPTION
 
