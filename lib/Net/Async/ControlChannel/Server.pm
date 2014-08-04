@@ -1,7 +1,5 @@
 package Net::Async::ControlChannel::Server;
-{
-  $Net::Async::ControlChannel::Server::VERSION = '0.004';
-}
+$Net::Async::ControlChannel::Server::VERSION = '0.005';
 use strict;
 use warnings;
 use parent qw(Mixin::Event::Dispatch);
@@ -14,7 +12,7 @@ Net::Async::ControlChannel::Server - server implementation for L<Protocol::Contr
 
 =head1 VERSION
 
-version 0.004
+Version 0.005
 
 =head1 SYNOPSIS
 
@@ -176,6 +174,7 @@ sub start {
 			port     => $self->port || 0,
 		},
 		on_listen => $self->curry::listen_active,
+		on_listen_error => $self->curry::listen_error,
 		on_stream => $self->curry::incoming_stream,
 	);
 	$self->listening;
@@ -202,6 +201,17 @@ sub listen_active {
 	$self->{host} = $sock->sockhost;
 	$self->{port} = $sock->sockport;
 	$self->listening->done($self);
+}
+
+=head2 listen_error
+
+Called when there's an error. Marks L</listening> as failed.
+
+=cut
+
+sub listen_error {
+	my $self = shift;
+	$self->listening->fail(@_);
 }
 
 =head2 incoming_stream

@@ -3,7 +3,7 @@ package Net::Async::ControlChannel;
 use strict;
 use warnings;
 
-our $VERSION = '0.004';
+our $VERSION = '0.005';
 
 =head1 NAME
 
@@ -11,7 +11,7 @@ Net::Async::ControlChannel - L<IO::Async> support for ControlChannel protocol
 
 =head1 VERSION
 
-version 0.004
+Version 0.005
 
 =head1 DESCRIPTION
 
@@ -71,7 +71,7 @@ __END__
  );
  {
  	$loop->add(my $timer = IO::Async::Timer::Periodic->new(
- 		interval => 5,
+ 		interval => 1,
  		on_tick => sub {
  			$server->dispatch('timer.tick' => time)
  		}
@@ -108,4 +108,4 @@ Tom Molesworth <cpan@entitymodel.com>
 
 =head1 LICENSE
 
-Copyright Tom Molesworth 2012-2013. Licensed under the same terms as Perl itself.
+Copyright Tom Molesworth 2012-2014. Licensed under the same terms as Perl itself.

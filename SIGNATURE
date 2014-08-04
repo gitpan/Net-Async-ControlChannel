@@ -14,36 +14,38 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 261f2b3dad94409c6b7e944cf67d6499358a4ece Changes
+SHA1 61deca03d26569400c6cd9e068ff82f463a67ba3 Changes
 SHA1 767333045605d063245c027263a9623104c851f6 INSTALL
-SHA1 aeb48d9f22d31def6e02d02d35dd602604e84a36 LICENSE
-SHA1 93dc553272a2aa282f13759ab3b61dae7802a2f1 MANIFEST
-SHA1 af758b3b6219eee1a276526bc884e66d401bfd2b META.json
-SHA1 c5eb610788065d4a0120aedbf865dd50f38769f4 META.yml
-SHA1 ad2c7230eda83ea7ad2fb1a18aca9579f3ca24bd Makefile.PL
-SHA1 d6bd956f0c2eb873d6328902f976f866a40e8a4d README
-SHA1 5040213562323b37cc0d51ceda972fb934a09189 cpanfile
-SHA1 5981c9529c777b0f16eefa55cfbc8f4bcb3546a1 dist.ini
-SHA1 02389165934306d947a54f82c97559648e0a889d examples/basic.pl
-SHA1 52dd4373d3ed353d480c4a4df2470bc744af8c04 lib/Net/Async/ControlChannel.pm
-SHA1 c407597007a2ac8971ccf960b39eb4fee47f62dd lib/Net/Async/ControlChannel/Client.pm
-SHA1 b0874b1cafed0c06c6fbb9422fadd8e86827c621 lib/Net/Async/ControlChannel/Server.pm
-SHA1 42371088a19602110b64594c89e6455c372542c3 t/00-compile.t
+SHA1 509f655780fe2a934ad8515fa15921b96a6de84c LICENSE
+SHA1 423f93523ba6b9d925cda4722e73981d1a9650f3 MANIFEST
+SHA1 3f4e0fe8c3f2b9a4af37875273228197d480a882 META.json
+SHA1 96f417fb6e7633f0d220ddab6bde739c5e1d88d5 META.yml
+SHA1 0b9b8485a72a6f0917224894affd9ca72dcbd977 Makefile.PL
+SHA1 4c36635f651080a3e21fa921d5e8f1a4f7d9b63f README
+SHA1 d10e0586939c4ea4588d90e0df2deab27f0153a1 cpanfile
+SHA1 50ba5917089d24b87f53b6c95a79bcf51ca1ce13 dist.ini
+SHA1 5634d92cb6050950d9737e570d6815f971cc4b24 examples/basic.pl
+SHA1 5f3215a8324d1f2767841bf0843356dc8e428214 lib/Net/Async/ControlChannel.pm
+SHA1 31921e05f699e395cb1e08fba687686995ee0ccd lib/Net/Async/ControlChannel/Client.pm
+SHA1 6ba86728e9b7a0ba5488177ab84c716e26c3179f lib/Net/Async/ControlChannel/Client.pod
+SHA1 aee338ccdc2a5caa875417bf19a4571032e113d8 lib/Net/Async/ControlChannel/Server.pm
+SHA1 f201519c10ab5dbca19808e0c41128d2c327458f lib/Net/Async/ControlChannel/Server.pod
+SHA1 985d9ded8d8ed7e344a09e52b1402e878e91da28 t/00-check-deps.t
+SHA1 df19c306c44e104b21521c36960805cc5844b224 t/00-compile.t
+SHA1 a1cbb93d9d96f703bb1803e52b9141535555634c t/000-report-versions-tiny.t
 SHA1 198d1665317c3d91e3bb81f0a3b8dad8d4d66f20 xt/release/common_spelling.t
 SHA1 c6c3c9f7fe12058b4771449dff874b1c450c982c xt/release/mojibake.t
-SHA1 4c599e8a4ebb7a899f90ee3c235a64fdbc7e2c06 xt/release/pod-coverage.t
-SHA1 9934d36e45e1143c1a54658bc48872e0591af41b xt/release/pod-syntax.t
-SHA1 fd1fa776fca35fc8f1bdd24ee3fbaa1eca755a44 xt/release/synopsis.t
+SHA1 296928dbbcaffd1514ccc9b77a1e6e03cfe9b068 xt/release/pod-syntax.t
+SHA1 34513f89a70b96f6412fe2ef0ad4d475e8cac66c xt/release/synopsis.t
 SHA1 bbcd59d081d9940af5d43337ae85458075933829 xt/release/test-version.t
-SHA1 ec3f84bfd7a9ce3246e7592f4134100c6b5ce02b xt/release/unused-vars.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.12 (GNU/Linux)
+Version: GnuPG v1
 
-iQEcBAEBAgAGBQJSZbUzAAoJEFKElMNpjtyDb5UH/ilM7zpCCvsUjLcazVdVw7II
-6cDKCN5ULrV8k8HqIaZxJifthNwwlmLNXoMeZzFh6ozq6QqZkjrctVxQQKrcwDFo
-7jwgrps/TB5EGCb3nbaJu6y1Y+rW/YTD9F1igfEYot8Sn6W2ZYoCgltjJySdnQQX
-w/1xGuts2tzgFlc93q3DdfFPxQmTKHWSJ+dpnlxye/1ORLV2dNy60uJfU7twyRy+
-/fn2HzTDuRE6t+BfqmHVJXifOvYY8ME1pMNrtl5gYfv9xtIMiTJ73t9tZ0ZUmCAB
-88Pa1i7NVZ08XkTcKvxOd6wQTbqjrsvi3doTP3L80laT1sh6198prkQdbsYfZuQ=
-=7rwx
+iQEcBAEBAgAGBQJT3+pjAAoJEFKElMNpjtyD/XQH/0SFBZfp9sv1UFyRYclCpVRy
+E2RK2+Nuw5N6FrBUzg/VLLZSwdfcFdS2bOa+JBol+nyOFoO/Ifr/4zw7dOdUW0gk
+wvFet0bDfWTP0D6Wuk3IusvKnlCCBJJ/QHP9/UgIEpcrOqXYE3z7Mmr+EKjnUrhK
+4n02t7qtwu7pA9HYzfyWNlFlCXgwqmKYQDkYnGCnLy1Bm37SQzo4tWUyyUSYRu5d
+way97aY/uNaQXBVShmeMojXqlFgx9eCJg1BYFHhNmNXYZ8q7qyc3ND21NngAsN70
+fXupGlyWOnBxu6ryKSjuiBITCs4I5V+Zj+ssvlxeqS9YfI14vHkBqNteGzvwtsM=
+=Hm7h
 -----END PGP SIGNATURE-----

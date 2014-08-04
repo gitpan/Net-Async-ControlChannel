@@ -1,7 +1,5 @@
 package Net::Async::ControlChannel::Client;
-{
-  $Net::Async::ControlChannel::Client::VERSION = '0.004';
-}
+$Net::Async::ControlChannel::Client::VERSION = '0.005';
 use strict;
 use warnings;
 use parent qw(Mixin::Event::Dispatch);
@@ -14,7 +12,7 @@ Net::Async::ControlChannel::Client - L<IO::Async> support for L<Protocol::Contro
 
 =head1 VERSION
 
-version 0.004
+Version 0.005
 
 =head1 DESCRIPTION
 
@@ -184,4 +182,4 @@ Tom Molesworth <cpan@entitymodel.com>
 
 =head1 LICENSE
 
-Copyright Tom Molesworth 2012-2013. Licensed under the same terms as Perl itself.
+Copyright Tom Molesworth 2012-2014. Licensed under the same terms as Perl itself.
